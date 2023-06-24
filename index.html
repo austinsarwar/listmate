@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header></header>
+   
+       
+    <div class="panel-container">
+
+            <div id="title">List It</div>
+            <img id="shopping-cart-img" src="list_image.jpg" alt="shopping-cart">
+            
+            <input type="text" id="input-field" placeholder="Item name">
+            <div class="btns">
+                <button type="button" class="btn btn-primary" id="add-button">Add to List
+                </button>
+                <button id="save-btn">&#x2713;</button>
+                <button id="delete-btn">X</button>
+                
+                
+                
+            </div>
+            <div id="shopping-list-container">
+                <ul id="shopping-list">
+
+                </ul>
+            </div>
+            <dialog id="save-modal">
+                <div>Would you like to save your list?</div>
+                <button id="save-option">Yes</button>
+                <button id="close-save-modal">No</button>
+            </dialog>
+            <dialog id="name-save-modal">
+                <div>Please enter a name for your list</div>
+                <input type="text" id="table-name">
+                <button id="name-save-option">ok</button>
+                <button id="close-name-modal">cancel</button>
+            </dialog>
+            <dialog id="delete-modal">
+                <div>Are you sure you want to delete list? <br> (all unsaved data will be lost)</div>
+                <div> </div>
+                <button id="delete-option">Yes</button>
+                <button id="close-delete-modal">No</button>
+            </dialog>
+    </div>  
+    <script src="index.js" type="module"></script>
+    
+   
+</body>
+</html>
