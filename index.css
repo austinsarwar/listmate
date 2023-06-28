@@ -44,7 +44,11 @@ img{
     flex-direction: column;
     list-style-type:upper-roman;
     
+    
 }
+li:hover {
+    cursor: pointer;
+  }
 #delete-btn{
     color:  #432000;
     background-color: #DCE1EB;
